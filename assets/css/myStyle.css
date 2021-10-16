@@ -44,6 +44,7 @@ header nav ul li a {
 	font-size: 22px;
 }
 
+/* FOOTER STYLES START */
 footer {
 	background: #fce138;
 	width: 100%;
@@ -66,6 +67,8 @@ footer div {
 footer a {
 	color: #024e76;
 }
+
+/* FOOTER STYLES END */
 
 section {
 	padding: 60px;
@@ -129,11 +132,11 @@ section {
 
 .section-title {
 	font-size: 55px;
-	color: #024e76;
-	margin-bottom: 35px;
-	padding: 0 100px 20px 100px;
 	display: inline-block;
+	padding: 0 100px 20px 100px;
 	border-bottom: 3px solid;
+	margin-bottom: 35px;
+	color: #024e76;
 }
 
 .primary-border {
@@ -189,6 +192,7 @@ steps p {
 	margin: 0 auto 30px auto;
 	background: #024e76;
 	color: #fce138;
+	/* ".clearfix::after" added below instead of "overflow:auto" */
 }
 
 .trainer img {
@@ -230,4 +234,32 @@ steps p {
 
 .text-right {
 	text-align: right;
+}
+
+/* REACH OUT STYLES START */
+.contact {
+	background-color: #024e76;
+	text-align: center;
+}
+
+.contact h2 {
+	color: #fce138;
+	text-align: center;
+}
+
+.contact-info iframe {
+	width: 400px;
+	height: 400px;
+	float: left;
+	overflow: auto;
+	width: 35%;
+}
+
+.contact-info div {
+	width: 410px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	margin: 30px 0 0 60px;
+	color: white;
 }
