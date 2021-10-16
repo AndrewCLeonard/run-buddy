@@ -23,7 +23,6 @@ header h1 {
 	margin: 0;
 	display: inline;
 }
-
 header a {
 	text-decoration: none;
 	color: #fce138;
@@ -103,6 +102,16 @@ section {
 	margin: 5px 0 15px 0;
 }
 
+.form-input {
+	border: 1px solid #024e76;
+	display: block;
+	padding: 7px 15px;
+	font-size: 16px;
+	color: #024e76;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
 .hero-form label {
 	margin: 0 5px;
 }
@@ -116,34 +125,8 @@ section {
 	border-radius: 8px;
 }
 
-.form-input {
-	border: 1px solid #024e76;
-	display: block;
-	padding: 7px 15px;
-	font-size: 16px;
-	color: #024e76;
-	width: 100%;
-	margin-bottom: 15px;
-}
-
 .intro {
 	text-align: center;
-}
-
-.section-title {
-	font-size: 55px;
-	display: inline-block;
-	padding: 0 100px 20px 100px;
-	border-bottom: 3px solid;
-	margin-bottom: 35px;
-	color: #024e76;
-}
-
-.primary-border {
-	border-color: #fce138;
-}
-.secondary-border {
-	border-color: #39a6b2;
 }
 
 .intro p {
@@ -174,13 +157,29 @@ section {
 	margin-top: 10px;
 }
 
-steps p {
+.steps p {
 	color: #39a6b2;
 	font-size: 23px;
 }
 
 .steps span {
 	font-size: 38px;
+}
+
+.section-title {
+	font-size: 55px;
+	color: #024e76;
+	margin-bottom: 35px;
+	padding: 0 100px 20px 100px;
+	display: inline-block;
+	border-bottom: 3px solid;
+}
+
+.primary-border {
+	border-color: #fce138;
+}
+.secondary-border {
+	border-color: #39a6b2;
 }
 
 .trainers {
@@ -238,13 +237,12 @@ steps p {
 
 /* REACH OUT STYLES START */
 .contact {
-	background-color: #024e76;
 	text-align: center;
+	background: #024e76;
 }
 
 .contact h2 {
 	color: #fce138;
-	text-align: center;
 }
 
 .contact-info iframe {
